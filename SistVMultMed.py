@@ -133,6 +133,7 @@ def main():
 
             else:
                 print("Ya existe la mascota con el numero de histoira clinica")
+                # En este paso la ya la mascota debe aparecer, si no, se ingresa una 
 
         elif menu==2: # Ver fecha de ingreso
             q = int(input("Ingrese la historia clínica de la mascota: "))
@@ -172,6 +173,7 @@ def main():
         
         else:
             print("Usted ingresó una opción no válida, intentelo nuevamente...")
+
 
 if __name__=='__main__':
     main()
